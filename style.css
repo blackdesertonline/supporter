@@ -1,0 +1,217 @@
+@font-face{
+
+	src: url(fonts/BlackRoadsDEMO.otf);
+	font-family: blackroads;
+
+	src: url(fonts/SandDunes.otf);
+	font-family: sand;
+
+
+
+}
+
+
+
+
+
+
+
+
+body {
+	margin: 0;
+	padding: 0;
+}
+.main {
+	max-height: 550px;;
+	background-color: #292c2f;
+	color: white;
+	font-size: 38pt;
+	text-align: center;
+	line-height: 550px;
+}
+footer{
+	position: relative;
+	bottom: 0;
+}
+.footer-distributed{
+	background-color: #292c2f;
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.12);
+	box-sizing: border-box;
+	width: 100%;
+	font: bold 16px sans-serif;
+ 
+	padding: 55px 50px;
+	margin-top: 80px;
+}
+ 
+.footer-distributed .footer-left,
+{
+	
+	vertical-align: top;
+	text-align: center;
+}
+ 
+.footer-distributed .footer-left{
+	
+	text-align: center;
+}
+ 
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 24px 'Arial', cursive;
+	margin: 0;
+	text-align: center;
+}
+ 
+.footer-distributed h3 span{
+	color:  #5383d3;
+	text-align: center;
+}
+ 
+ 
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	
+	padding: 0;
+}
+ 
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+ 
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+ 
+
+ 
+@media (max-width: 880px) {
+ 
+	.footer-distributed{
+		font: bold 14px sans-serif;
+	
+	}
+ 
+	.footer-distributed .footer-left,
+	{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+ 
+
+	.main {
+		line-height: normal;
+		font-size: auto;
+	}
+ 
+}
+
+
+body,
+#slider,
+.wrap,
+.slide-content {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+
+.wrap {
+  position: relative;
+}
+
+.slide {
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+
+
+.slide1 {
+  background-image: url("screenshots/dine.jpg");
+}
+.slide2 {
+  background-image: url("screenshots/heaven.jpg");
+}
+.slide3 {
+  background-image: url("screenshots/hell.jpg");
+}
+.slide4 {
+  background-image: url("screenshots/halloween.jpg");
+}
+.slide5 {
+  background-image: url("screenshots/dine.jpg");
+}
+.slide6 {
+  background-image: url("screenshots/battle.jpg");
+}
+.slide7 {
+  background-image: url("screenshots/love.jpg");
+}
+.slide8 {
+  background-image: url("screenshots/kisshim.jpg");
+}
+.slide9 {
+  background-image: url("screenshots/summer.jpg");
+}
+.slide10 {
+  background-image: url("screenshots/teamsoul.jpg");
+}
+.slide11 {
+  background-image: url("screenshots/soul.jpg");
+}
+.slide12 {
+  background-image: url("screenshots/supporters.jpg");
+}
+
+
+
+
+.slide-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.slide-content span {
+  font-size: 5rem;
+  color: #fff;
+}
+
+.arrow {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  margin-top: -35px;
+  width: 0;
+  height: 0;
+  border-style: solid;
+}
+
+#arrow-left {
+  border-width: 30px 40px 30px 0;
+  border-color: transparent #fff transparent transparent;
+  left: 0;
+  margin-left: 30px;
+}
+
+#arrow-right {
+  border-width: 30px 0 30px 40px;
+  border-color: transparent transparent transparent #fff;
+  right: 0;
+  margin-right: 30px;
+}

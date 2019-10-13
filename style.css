@@ -172,6 +172,9 @@ body,
 .slide11 {
   background-image: url("screenshots/soul.jpg");
 }
+.slide12 {
+  background-image: url("screenshots/supporterweek3.jpg");
+}
 
 .slide-content {
   display: flex;
